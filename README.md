@@ -1,7 +1,7 @@
 # Swish demo app
 This repo contains the published code on an Azure App Service served from https://swishproxy.azurewebsites.net/swish address. When I install the required certificates on my local machine it works as expected.
 But when I install them on Azure it gets `HandshakeFailure` error even though I can see all the required certificates are installed properly.  
-`Installed certs:` trace shows the installed certificates that are successfully attached to the Http request.
+`Installed certs:` trace shows the installed certificates that are successfully attached to the Http request.  
 Everything you need can be found in [SwishController.cs](/SwishProxy/Controllers/SwishController.cs) file
 
 ### Expected result
