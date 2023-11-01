@@ -1,10 +1,7 @@
 # Swish demo app
-## Requirements
-ASP.NET Core Runtime 6.0 or higher
-
-1. Run application
-2. browse /swish
-3. See results
+This repo contains the published code on Azure App Service served from https://swishproxy.azurewebsites.net/swish adress. When I install the required certificates on my local machine it works as expected.
+But when I install them on Azure it gets `HandshakeFailure` error even though I can see all the required certificates are installed properly.
+`Installed certs:` trace shows the installed certificates that are successfully attached to the Http request.
 
 ### Expected result
 Error: Forbidden (HTTP 403)  
